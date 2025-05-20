@@ -1,5 +1,9 @@
 # This Is A comment
 def SayHelloWorld():
-    print("Hellow World!")
+    print("Hello World!")
+
+def SayLiterallyAnythingElse():
+    print("Literally anything else")
 
 SayHelloWorld()
+SayLiterallyAnythingElse()
