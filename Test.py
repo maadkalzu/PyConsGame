@@ -1,9 +1,8 @@
-# This Is A comment
-def SayHelloWorld():
-    print("Hello World!")
+ # global variable
 
-def SayLiterallyAnythingElse():
-    print("Literally anything else")
+def ChangeVal1():
+    value1 = 20
+    
 
-SayHelloWorld()
-SayLiterallyAnythingElse()
+ChangeVal1()
+print(value1)  # Now this will print 20
