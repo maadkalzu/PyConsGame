@@ -150,11 +150,11 @@ class Player:
             input("Press Enter to continue...")
 
     def weapon_bonus(self):
-        bonuses = {"Wood Sword": 5, "Stone Sword": 10, "Iron Sword": 15}
+        bonuses = {"Wood Sword": 5, "Stone Sword": 10, "Iron Sword": 15, "Platinum Sword": 20}
         return bonuses.get(self.weapon, 0)
 
     def armor_bonus(self):
-        reductions = {"Wood Armor": 2, "Stone Armor": 5, "Iron Armor": 8}
+        reductions = {"Wood Armor": 2, "Stone Armor": 5, "Iron Armor": 8, "Platinum Armor": 11}
         return reductions.get(self.armor, 0)
 
 class Battle(State):
