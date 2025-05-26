@@ -27,8 +27,10 @@ Click that button then press 'Download ZIP'
 
 **OR**
 
-Open a new terminal session and navigate to the Directory you want to save the file to and past this command
+Open a new terminal session and navigate to the Directory you want to save the file to and paste this command in the terminal
+
 `git clone https://github.com/maadkalzu/PyConsGame.git`
 
 **I hope you all enjoy <3**
+
 - Kalzu (maad)
