@@ -84,7 +84,7 @@ class CheatMenu(State):
 class Map(State):
     def __init__(self, game):
         super().__init__(game)
-        self.events = [Battle, Treasure, Trap, Shop, GatherMaterials]
+        self.events = [Battle, Treasure, Trap, GatherMaterials]
 
     def display(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -462,6 +462,6 @@ class Crafting(State):
             print("Invalid choice.")
             input("Press Enter to continue...")
 
-if name == "main":
+if __name__ == "__main__":
     game = Game()
     game.run()
